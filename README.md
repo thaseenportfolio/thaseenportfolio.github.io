@@ -22,3 +22,14 @@ free GitHub Pages address.
 
 To publish later source changes, run the existing **Publish V8 Kinetic Atelier**
 workflow from the repository's Actions tab.
+
+
+## V8.3 final motion refinement — 11 November 2026
+
+- Restored independent touch-safe scroll motion to IMAGINE, VISUALISE and DELIVER.
+- Preserved the V8.2 readable two-column portfolio gallery with bounded image movement on mobile.
+- Added a visible ON/OFF indicator for the mobile motion toggle.
+- Preserved desktop parallax, mobile typography containment and reduced-motion behavior.
+- Source CSS commit: `5f108151b8bdb3a2949c7eeaaa7e75ebfbefae7c`.
+- Source JS commit: `e4811483f97178499918368f46dc77196edf7f13`.
+
