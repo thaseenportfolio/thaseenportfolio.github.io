@@ -11,12 +11,14 @@ The portfolio's source files and images are maintained in
 The publishing workflow copies the site from that repository and deploys to this
 free GitHub Pages address.
 
-## Latest site refinement — 11 November 2026
+## Latest mobile refinement — 11 November 2026
 
-- Reduced the oversized Portfolio title and moved it behind the four project images.
-- Kept the scroll-linked typography and multi-layer parallax motion.
-- Improved image brightness, project badges, captions and responsive type sizes.
-- Adjusted title drift to maintain a balanced cinematic composition.
+- Rebalanced mobile headings and portrait spacing for phone screens.
+- Replaced the clipped four-image motion stage on phones with a contained two-column gallery.
+- Kept desktop parallax and original project artwork unchanged.
+- Improved readable captions, contact typography, and touch-oriented navigation.
+- Site source revision: `ee6358644376e4dc0b9a783f63e3debd2a768c70`.
+
 
 To publish later source changes, run the existing **Publish V8 Kinetic Atelier**
 workflow from the repository's Actions tab.
