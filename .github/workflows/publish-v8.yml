@@ -29,9 +29,11 @@ jobs:
       - name: Prepare site
         run: |
           mkdir -p _site
-          cp -a portfolio/index.html portfolio/styles.css portfolio/script.js portfolio/favicon.svg portfolio/motion-v7.css portfolio/motion-v7.js portfolio/motion-v8.css portfolio/motion-v8.js portfolio/assets _site/
+          cp -a portfolio/index.html portfolio/styles.css portfolio/script.js portfolio/favicon.svg portfolio/motion-v7.css portfolio/motion-v7.js portfolio/motion-v8.css portfolio/motion-v8.js portfolio/assets portfolio/robots.txt portfolio/sitemap.xml _site/
           touch _site/.nojekyll
           test -f _site/index.html
+          test -f _site/robots.txt
+          test -f _site/sitemap.xml
           test -f _site/assets/thaseen-hero-portrait.png
 
       - name: Upload Pages artifact
