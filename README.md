@@ -40,3 +40,7 @@ workflow from the repository's Actions tab.
 - Added versioned CSS/JS URLs to avoid stale cached mobile effects.
 - Retained scroll response, Motion ON/OFF toggle, and reduced-motion accessibility.
 - Tested mobile animation and toggle with Chromium at 390px width with no script errors or horizontal overflow.
+
+## Google Search Console ownership verification
+
+The public site's source includes Google's HTML meta verification tag in the `<head>` of `index.html`. The publishing workflow pulls this current source version into GitHub Pages.
