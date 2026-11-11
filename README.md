@@ -33,3 +33,10 @@ workflow from the repository's Actions tab.
 - Source CSS commit: `5f108151b8bdb3a2949c7eeaaa7e75ebfbefae7c`.
 - Source JS commit: `e4811483f97178499918368f46dc77196edf7f13`.
 
+
+## V8.4 mobile motion correction
+
+- Added independently visible kinetic drift on phones when Motion is enabled.
+- Added versioned CSS/JS URLs to avoid stale cached mobile effects.
+- Retained scroll response, Motion ON/OFF toggle, and reduced-motion accessibility.
+- Tested mobile animation and toggle with Chromium at 390px width with no script errors or horizontal overflow.
